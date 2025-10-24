@@ -16,7 +16,8 @@ Step 5:Iterate through each word in the tokenized text.<br>
 •	For each verb , iterate through its synsets (sets of synonyms) using wordnet.synsets(word).<br>
 •	Extract synonyms and antonyms using lemma.name() and lemma.antonyms()[0].name() respectively.<br>
 •	Print the unique sets of synonyms and antonyms.
-<H3>Program:</H3>
+
+## Program:
 ```python
 import nltk
 from nltk.tokenize import word_tokenize
@@ -61,9 +62,9 @@ print("Antonyms :", set(antonyms))
 
 ```
 
-<H3>Output</H3>
+## Output
 
 <img width="1465" height="680" alt="image" src="https://github.com/user-attachments/assets/b1ddcbc6-5c5f-4654-ab5e-f903dd3743e3" />
 
-<H3>Result:</H3>
+## Result:
 Thus ,the program to perform the Parts of Speech identification and Synonymis executed sucessfully.
